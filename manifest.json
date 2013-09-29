@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Chromium Issue",
+  "version": "0.0.1",
+  "author": "Dmitry Filimonov",
+  "description": "Chromium Issue",
+  "devtools_page": "devtools.html",
+  "app":{
+    "launch": {
+      "local_path": "panel/index.html"
+    }
+  },
+  "plugins": [
+    {
+      "path": "BasicPlugin.bundle",
+      "public": false
+    }
+  ]
+}
